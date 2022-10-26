@@ -1,6 +1,6 @@
 # WireGuard Startup Script
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=modesttom.wg-start&left_color=gray&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=modesttom.wireguard-start&left_color=gray&right_color=blue)
 
 **This project is a simple bash script that is for the purpose of utilizing multiple [WireGuard](https://www.wireguard.com/) configurations (you do not need multiple).**
 
