@@ -16,5 +16,20 @@
 
 Download and run the script. I personally store it in `/usr/bin` but you may run it from anywhere.
 
+```bash
+curl -O https://raw.githubusercontent.com/ModestTom/wg-start/main/wg-start.sh
+```
+or
+```bash
+wget https://raw.githubusercontent.com/ModestTom/wg-start/main/wg-start.sh
+```
+then
+```bash
+chmod +x wg-start.sh
+sudo ./wg-start.sh
+```
+
+It will check for any currently running WireGuard clients and prompt you to either stop it or not. If no clients are active, it will scan the default configuration directory for WireGuard `/etc/wireguard` and prompt you to choose one to start. You can run it again to stop the client.
+
 
 
